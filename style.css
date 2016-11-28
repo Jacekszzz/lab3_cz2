@@ -1,0 +1,357 @@
+body{
+	   background-color: white;
+	   
+   }
+   #container
+   {
+     max-width: 1000px;
+	 margin-left: auto;
+	 margin-right: auto;
+   }
+   #logo
+   {
+     max-width: 100%;
+	 padding-top: 4px;
+	 padding-left: 4px;
+   }
+   .herb
+   {
+	   max-height: 60px;
+	   max-width: 100%;
+   }
+   #temat
+   {
+     background-color: #0099cc;
+	 text-align: center;
+	 padding: 10px;
+   }
+
+   
+   #menu
+   {
+	 background-color: #005e80;
+	 max-width: 100%;
+	 padding: 10px;
+	 text-align: center;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+   }
+   a
+   {
+	 margin-right: 15px;
+	 color: white;
+   }
+   
+   #baner
+   {
+	 width:100%;
+	 margin-left: auto;
+	 margin-right: auto;
+   }
+   .banerimg
+   {
+	   width: 100%;
+	   display: block;
+   }
+   #boxy
+   {
+     width: 100%;
+	 overflow: hidden;
+	 text-align: center;
+   }
+   h3
+   {
+	   text-align: center;
+   }
+   h4
+   {
+	   text-align: center;
+   }
+   p
+   {
+	   padding: 5px;
+   }
+   #box1
+   {
+     width: 34%;
+	 min-width: 250px;
+	 background-color: #b3e6ff;
+	 float: left;
+	 padding: 0px;
+	 text-align: left;
+	 margin-left: auto;
+	 margin-right: auto;
+   }
+   #box2
+   {
+     width: 34%;
+	 min-width: 250px;
+	 background-color: #e6f7ff;
+	 float: left;
+	 padding: 0px;
+	 text-align: left;
+	 margin-left: auto;
+	 margin-right: auto;
+   }
+   #photo
+   {
+     width: 32%;
+		 min-width: 250px;
+	 float: left;
+	 margin-left: auto;
+	 margin-right: auto;
+   }
+   
+   .zdjecie
+   {
+	   width: 100%;
+	   
+   }
+   
+   .zdjeciepodam
+   {
+	   width: auto;
+	   height: 200px;
+	   
+   }
+   .zdjeciepodamw
+   {
+	   width: auto;
+	   height: 270px;
+   }
+   .zdjeciepodwsaib
+   {
+	   width: auto;
+	   height: 250px;
+   }
+   #gallery
+   {
+     max-width: 100%;
+	   margin-top: 5px; 
+   }
+   #kolumna1
+   {
+	   float: left;
+		 margin-left: 0;
+		 max-width: 50%;
+		 min-width: 250px;
+		 float: left;
+   }
+   #kolumna2
+   {
+	   float: right;
+		 margin: auto;
+		 min-width: 250px;
+   }
+   .galeria
+   { max-width: 100%;
+		 margin: 0 auto;
+		 min-width: 250px;
+   }
+   #box1pod
+   {
+	   width:30%;
+	   min-height: 250px;
+	   background-color: #004666;
+	   float: left;
+	   padding: 0px;
+	   text-align: left;
+   }
+   #box2pod
+   {
+     width: 45%;
+	 min-height: 250px;
+	 background-color: #e6f7ff;
+	 float: left;
+	 padding: 0px;
+	 text-align: left;
+   }
+   #mapa_google
+   {
+	   width: 100$;
+   }
+   #photopod
+   {
+     width: 25%;
+	 float: right;
+   }
+   #boxy2
+   {
+     width: 100%;
+	 overflow: hidden;
+	 text-align: center;
+   }
+   #opis
+   {
+	   float: left;
+	   width: 60%;
+	   background-color: lightgray;
+   }
+   #photomap
+   {
+	   float: right;
+	   width: 40%;
+   }
+   .amgoogle
+   {
+	   width: 400px;
+   } 
+   #menu2
+   {
+	 background-color: #005e80;
+	 max-width: 100%;
+	 padding: 10px;
+	 text-align: center;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+   }
+   #linki1
+   {
+	   float: left;
+	   width: 47%;
+	   padding: 5px;
+   }
+   #linki2
+   {
+	   float: right;
+	   width: 46%;
+	   padding: 5px;
+   }
+   #footer
+   { 
+     clear:both;
+	 background-color: #007ab3;
+	 color: white;
+	 text-align: center;
+	 padding:10px;	 
+   }
+   
+@media screen and (max-width: 1680px) {
+
+		#container.\31 25\25 {
+			width: 100%;
+			max-width: 1500px;
+			min-width: 1200px;
+		}
+
+		#container.\37 5\25 {
+			width: 900px;
+		}
+
+		#container.\35 0\25 {
+			width: 600px;
+		}
+
+		#container.\32 5\25 {
+			width: 300px;
+		}
+
+		#container {
+			width: 1200px;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#container.\31 25\25 {
+			width: 100%;
+			max-width: 125%;
+			min-width: 100%;
+		}
+
+		#container.\37 5\25 {
+			width: 75%;
+		}
+
+		#container.\35 0\25 {
+			width: 50%;
+		}
+
+		#container.\32 5\25 {
+			width: 25%;
+		}
+
+		#container {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 960px) {
+
+		#container.\31 25\25 {
+			width: 100%;
+			max-width: 125%;
+			min-width: 100%;
+		}
+
+		#container.\37 5\25 {
+			width: 75%;
+		}
+
+		#container.\35 0\25 {
+			width: 50%;
+		}
+
+		#container.\32 5\25 {
+			width: 25%;
+		}
+
+		#container {
+			width: 100%;
+		}
+
+	}
+
+	@media screen and (max-width: 840px) {
+
+		#container.\31 25\25 {
+			width: 100%;
+			max-width: 125%;
+			min-width: 100%;
+		}
+
+		#container.\37 5\25 {
+			width: 75%;
+		}
+
+		#container.\35 0\25 {
+			width: 50%;
+		}
+
+		#container.\32 5\25 {
+			width: 25%;
+		}
+
+		#container {
+			width: 100% !important;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#container.\31 25\25 {
+			width: 100%;
+			max-width: 125%;
+			min-width: 100%;
+		}
+
+		#container.\37 5\25 {
+			width: 75%;
+		}
+
+		#container.\35 0\25 {
+			width: 50%;
+		}
+
+		#container.\32 5\25 {
+			width: 25%;
+		}
+
+		#container {
+			width: 100% !important;
+		}
+
+	}
