@@ -110,43 +110,45 @@ body{
    
    .zdjeciepodam
    {
-	   width: auto;
-	   height: 200px;
+	   width: 100%;
 	   
    }
    .zdjeciepodamw
    {
-	   width: auto;
-	   height: 270px;
+	   width: 100%;
    }
    .zdjeciepodwsaib
    {
-	   width: auto;
-	   height: 250px;
+	   width: 100%;
    }
+   
    #gallery
    {
-     max-width: 100%;
-	   margin-top: 5px; 
+       min-width: 480px;
+	   width: 95%;
+	   margin: 0 auto;	   
    }
    #kolumna1
-   {
-	   float: left;
-		 margin-left: 0;
-		 max-width: 50%;
-		 min-width: 250px;
-		 float: left;
+   { width: 49%;
+     min-width: 250px;
+	 float: left;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 2px;
    }
    #kolumna2
    {
-	   float: right;
-		 margin: auto;
-		 min-width: 250px;
+	     width: 49%;
+     min-width: 250px;
+	 float: left;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 2px;
    }
    .galeria
-   { max-width: 100%;
-		 margin: 0 auto;
-		 min-width: 250px;
+   {     
+         width: 100%;
+		 padding: 5px;
    }
    #box1pod
    {
@@ -168,12 +170,19 @@ body{
    }
    #mapa_google
    {
-	   width: 100$;
+	   width: 100%;
+	   min-width: 480px;
+	   float: left;
+	   margin-left: auto;
+	   margin-right: auto;
    }
    #photopod
    {
-     width: 25%;
-	 float: right;
+	 width: 25%;
+		 min-width: 250px;
+	 float: left;
+	 margin-left: auto;
+	 margin-right: auto;
    }
    #boxy2
    {
@@ -189,12 +198,15 @@ body{
    }
    #photomap
    {
-	   float: right;
 	   width: 40%;
+	   min-width: 300px;
+	   float: left;
+	   margin-left: auto;
+	   margin-right: auto;
    }
    .amgoogle
    {
-	   width: 400px;
+	   width: 100%;
    } 
    #menu2
    {
